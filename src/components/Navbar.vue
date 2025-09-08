@@ -1,5 +1,6 @@
-<<script setup>
-import logo from '../assets/Moolah-la-02.svg'
+<
+<script setup>
+import logo from "../assets/Moolah-la-02.svg";
 </script>
 <template>
   <nav class="navbar navbar-expand-md sticky-top bg-light border-bottom">
@@ -8,12 +9,7 @@ import logo from '../assets/Moolah-la-02.svg'
         class="navbar-brand fw-bold d-flex align-items-center"
         to="/home"
       >
-        <img
-          :src="logo"
-          alt="Moolah-la logo"
-          height="32"
-          class="me-2"
-        />
+        <img :src="logo" alt="Moolah-la logo" height="32" class="me-2" />
       </RouterLink>
 
       <button
@@ -41,6 +37,12 @@ import logo from '../assets/Moolah-la-02.svg'
             <RouterLink class="nav-link" to="/contact">
               <i class="bi bi-envelope-paper me-1"></i> Contact
             </RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/voip-faq">VoIP FAQs</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/pos-faq">VoIP FAQs</RouterLink>
           </li>
         </ul>
       </div>
