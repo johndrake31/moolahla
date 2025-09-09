@@ -39,10 +39,14 @@ import logo from "../assets/Moolah-la-02.svg";
             </RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/voip-faq">VoIP FAQs</RouterLink>
+            <RouterLink class="nav-link" to="/voip-faq">
+              <i class="bi bi-telephone me-1"></i> VoIP FAQs
+            </RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/pos-faq">VoIP FAQs</RouterLink>
+            <RouterLink class="nav-link" to="/pos-faq">
+              <i class="bi bi-cash-coin me-1"></i> POS FAQs
+            </RouterLink>
           </li>
         </ul>
       </div>
